@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---------------gallery section 1 css starts here---------------*/
+.gsec-02{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+.gsec-02 h1{
+    font-size: 3rem;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.galleryboxes{
+    width: 100%;
+    display: flex;
+    max-width: 80%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.galleryboxes img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.galleryboxes img:hover{
+    
+}
+.galleryboxes img:nth-child(2){
+    z-index: 1000;
+}
+/*---------------gallery section 1 css ends here---------------*/
+/*------------------gallery section css starts here------------*/
+@media only screen and (min-width:200px) and (max-width:1336px){
+    .gsec-02{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .galleryboxes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding: 20px 0px;
+        box-sizing: border-box;
+    }
+    .galleryboxes img{
+        width: 100%;
+        height: auto;
+        padding: 10px 0px;
+        box-sizing: border-box;
+    }
+}
+/*------------------gallery section css ends here------------*/
